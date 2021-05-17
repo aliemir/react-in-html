@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Page with React in it</title>
+    <style>
+        body {
+            background-color: lightcyan;
+            font-family: sans-serif;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .header {
+            padding: 16px 8px;
+            background-color: lightcoral;
+        }
+        h2 {
+            margin: 0;
+            color: white;
+        }
+        p {
+            color: lightgray;
+        }
+    </style>
+    <script src="https://unpkg.com/react@17/umd/react.production-min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production-min.js" crossorigin></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="left">
+            <h2>Title</h2>
+            </div>
+            <div class="right">
+                <div id="my-component-container"></div>
+            </div>
+        </div>
+        <main>
+            <section>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam eos iusto, fugit aut aliquid numquam voluptatem repellat consequatur, maiores impedit dolorum asperiores consectetur doloribus. Harum ad deserunt magni non!
+                </p>
+            </section>
+        </main>
+    </div>
+    <script src="my-component.js"></script>
+</body>
+</html>
